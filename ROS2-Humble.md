@@ -46,3 +46,12 @@ source /opt/ros/humble/setup.bash
 ```
 
 # MAVROS Installation
+## Binary Installation
+```sh
+sudo apt-get install ros-humble-mavros ros-humble-mavros-extras
+```
+## Geographiclib Installation
+```sh
+wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+sudo bash ./install_geographiclib_datasets.sh  
+```
